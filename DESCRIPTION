@@ -1,0 +1,19 @@
+Package: avr6
+Type: Package
+Title: Generate R6 classes from Avro records
+Version: 0.0.1
+Authors@R: c(
+    person("James", "Lamb", email = "jaylamb20@gmail.com", role = c("aut", "cre"))
+    )
+Maintainer: James Lamb <jaylamb20@gmail.com>
+Description: Avro stuff
+Imports:
+    assertthat,
+    R6
+Suggests:
+    devtools,
+    testthat
+License: BSD_3_clause + file LICENSE
+LazyData: TRUE
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
